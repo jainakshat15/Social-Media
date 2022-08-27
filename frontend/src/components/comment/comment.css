@@ -1,0 +1,19 @@
+.comment {
+    background-color: white;
+    margin: 10px;
+    width: 96%;
+}
+
+.commentCenter {
+    padding: 0;
+    margin: 5px;
+}
+
+.commentImg {
+    width: 25px;
+    height: 25px;
+}
+
+.deleted {
+    text-decoration: line-through;
+}

@@ -1,0 +1,164 @@
+.container {
+    background-color: whitesmoke;
+    width: 50vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.editProfileContainer {
+    height: 90vh;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #6f5c74;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #4C3A51;
+}
+
+.commentInput {
+    border: 1px solid #6f5c74 !important;
+    border-radius: 5px;
+    min-height: 40px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.commentShare {
+    background-color: white;
+    width: 97% !important;
+}
+
+.comments {
+    height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.editPost {
+    background-color: white;
+    width: 98% !important;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.editProfile {
+    margin-top: 20px;
+}
+
+.smallHeadings {
+    color: gray;
+    font-weight: 300;
+    margin: 3px;
+    text-decoration: underline;
+}
+
+.editProfileInput {
+    border: 1px solid #4C3A51;
+    border-radius: 5px;
+    width: auto;
+    outline: none;
+}
+
+.editProfileDescInput {
+    min-width: 50%;
+    max-width: 90%;
+    min-height: 70px;
+    max-height: 100px;
+}
+
+.updateButton {
+    margin: 10px;
+}
+
+.friendsModal {
+    width: 300px;
+
+}
+
+.friendsModalList {
+    height: 90%;
+
+    overflow-y: scroll;
+}
+
+
+.friendsModalSearch {
+    margin-top: 15px;
+}
+
+.resetPasswordContainer {
+    padding-top: 4vh;
+    width: 30vw;
+    height: 20vh;
+}
+
+.resetPasswordTopbarContainer {
+    padding-top: 4vh;
+    width: 30vw;
+    height: 30vh;
+}
+
+.helpContainer {
+    padding-top: 4vh;
+    width: 40vw;
+    height: 60vh;
+}
+
+.helpText {
+    min-height: 30vh;
+    min-width: 38vw;
+    max-width: 38.5vw;
+}
+
+.editCover {
+    cursor: pointer;
+}
+
+.editProfileImg {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95vw;
+        height: 90vh;
+
+    }
+
+    .resetPasswordContainer {
+        padding-top: 4vh;
+        width: 90vw !important;
+        height: 20vh !important;
+    }
+
+    .resetPasswordTopbarContainer {
+        padding-top: 4vh;
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .helpContainer {
+        padding-top: 4vh;
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .helpText {
+        min-height: 30vh;
+        min-width: 85vw;
+        max-width: 85.5vw;
+    }
+}

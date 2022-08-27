@@ -1,0 +1,30 @@
+.feed {
+    flex: 5.5
+}
+
+.feedWrapper {
+    padding: 20px;
+}
+
+.noPost {
+    font-size: 25px !important;
+}
+
+.topOnSocialMedia {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+    .feedRightbar {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .topOnSocialMedia {
+        display: block;
+    }
+
+}

@@ -1,0 +1,110 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background: url(https://socialmedia-jainakshat.netlify.app/assets/background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft,
+.loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #4C3A51 !important;
+    margin-bottom: 10px;
+}
+
+.loginDesc {
+    font-size: 20px !important;
+
+}
+
+.loginBox {
+    height: 300px;
+    padding: 20px;
+    background-color: whitesmoke !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.loginInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4C3A51 !important;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginButton:focus {
+    outline: none;
+}
+
+.loginButton:disabled {
+    cursor: not-allowed;
+}
+
+.loginForgot {
+    text-align: center;
+    color: #4C3A51 !important;
+    cursor: pointer;
+}
+
+.loginForgot:hover {
+    color: #30053c !important;
+}
+
+.loginRegisterButton {
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4C3A51 !important;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .loginWrapper {
+        flex-direction: column;
+        height: 90% !important;
+        width: 90% !important;
+    }
+}

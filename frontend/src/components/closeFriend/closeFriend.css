@@ -1,0 +1,42 @@
+.sidebarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.sidebarFriendImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 1px solid #4C3A51;
+}
+
+.sidebarFriend:hover {
+    background-color: #9f9d9f18;
+
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.closeFriendFollowButton {
+    border: none;
+    background-color: #6f5c74;
+    color: white;
+    border-radius: 5px;
+    padding: none !important;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px;
+    justify-content: center;
+    cursor: pointer;
+}

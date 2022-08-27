@@ -1,0 +1,137 @@
+.rightbar {
+    flex: 3.5;
+}
+
+.rightbarWrapper {
+    padding: 20px 20px 0 0;
+}
+
+.birthdayContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+.rightbarTitle {
+    margin-bottom: 20px;
+
+}
+
+.rightbarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbarTitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 22px;
+}
+
+.profileName {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.rightbarInfo {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightbarInfoItem {
+    margin-bottom: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightbarInfoKey {
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rightbarInfoValue {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.rightbarFollowings {
+    display: flex;
+
+}
+
+.rightbarFollowing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+
+.rightbarFollowingImg {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+
+}
+
+.rightbarFollowingName {
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+
+.rightbarFollowButton {
+    border: none;
+    background-color: #6f5c74;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.edit {
+    margin: 0;
+}
+
+.rightbarFollowButton:focus {
+    outline: none;
+}
+
+.noText {
+    font-size: 13px;
+    color: lightslategray;
+}
+
+
+@media screen and (max-width: 768px) {
+    .rightbarFollowingImg {
+        width: 19vw;
+        height: 19vw;
+        object-fit: cover;
+        -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+        box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+
+    }
+}

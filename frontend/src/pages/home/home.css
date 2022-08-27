@@ -1,0 +1,14 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+}
+
+.homeRightbar {
+    flex: 3
+}
+
+@media screen and (max-width: 1200px) {
+    .homeRightbar {
+        display: none;
+    }
+}
